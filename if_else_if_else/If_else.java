@@ -2,7 +2,7 @@ package Basic_programs;
 
 import java.util.*;
 
-public class If_else {
+public class voting_eligibility {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
