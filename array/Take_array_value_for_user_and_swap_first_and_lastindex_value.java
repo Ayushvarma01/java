@@ -4,24 +4,23 @@ import java.util.Scanner;
 
 public class Take_array_value_for_user_and_swap_first_and_lastindex_value {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter Index of array");
-		int index = scanner.nextInt();
-		int arr[] = new int[index];
-		int temp = 0;
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = scanner.nextInt();
-		}
-
-		for (int i = 0; i < arr.length; i++) {
-			if (i == arr.length - 1) {
-				temp = arr[i];
-				arr[i] = arr[0];
-				arr[0] = temp;
+		String name[] = { "Ayush", "Sakshi", "Aadi", "Ram", "Aashi", "Nothing" };
+		String temp;
+		if (name.length % 2 != 0) {
+			System.out.println(name.length + " is Odd number Array ");
+		} else {
+			for (int i = 0; i < name.length; i += 2) {
+//				if (i > 0) {
+//					for (int a = 0; a < name.length; a++) {
+				temp = name[i];
+				name[i] = name[i + 1];
+				name[i + 1] = temp;
+				System.out.println(temp);
+//					}
+//				}
 			}
 		}
-
-		for (int i : arr) {
+		for (String i : name) {
 			System.out.print(i + " ");
 		}
 	}
