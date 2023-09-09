@@ -12,3 +12,13 @@ public class Downward_Right_Triangle_Star_Pattern {
 		}
 	}
 }
+
+//output
+/*
+
+****
+***
+**
+*
+
+*/
