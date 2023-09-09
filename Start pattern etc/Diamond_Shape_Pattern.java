@@ -36,5 +36,11 @@ public class Diamond_Shape_Pattern{
    * * * 
   * * * * 
  * * * * * 
+* * * * * * 
+ * * * * * 
+  * * * * 
+   * * * 
+    * * 
+     * 
 
 */
