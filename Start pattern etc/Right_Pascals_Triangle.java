@@ -8,8 +8,8 @@ public class Right_Pascals_Triangle {
 			}
 			System.out.println();
 		}
-		for (int i = 1; i <= 4; i++) {
-			for (int j = i; j <= 4; j++) {
+		for (int i = 1; i <= 3; i++) {
+			for (int j = i; j <= 3; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
@@ -23,7 +23,6 @@ public class Right_Pascals_Triangle {
 *
 **
 ***
-****
 ****
 ***
 **
