@@ -12,3 +12,15 @@ public class Right_Triangle_Star_Pattern {
 		}
 	}
 }
+
+
+//output
+
+/*
+
+*
+**
+***
+****
+
+*/
