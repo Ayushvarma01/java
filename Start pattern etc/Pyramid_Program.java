@@ -21,12 +21,10 @@ public class Pyramid_Program {
 //output
 /*
 
-*
-**
-***
-****
-***
-**
-*
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * *
 
 */
