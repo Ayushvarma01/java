@@ -14,3 +14,15 @@ public class Left_Triangle_Star_Pattern {
 	
 	}
 }
+
+
+//output
+
+/*
+
+    *
+   **
+  ***
+ ****
+
+*/
