@@ -16,3 +16,17 @@ public class Right_Pascals_Triangle {
 		}
 	}
 }
+
+//output
+/*
+
+*
+**
+***
+****
+****
+***
+**
+*
+
+*/
