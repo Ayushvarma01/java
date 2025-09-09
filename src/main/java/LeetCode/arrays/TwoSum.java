@@ -1,17 +1,16 @@
 package LeetCode.arrays;
 
 public class TwoSum {
-	public static void main(String[] args) {
-		int[] numbers = { 3, 2, 4 };
-		int target = 6;
+	public int[] twoSum(int[] nums, int target) {
 
-		for (int i = 0; i < numbers.length; i++) {
-			for (int j = 0; j < numbers.length; j++) {
-				int result = numbers[i] + numbers[j];
-				if (result == target) {
-					System.out.println(i + " " + j);
-				}
-			}
-		}
+		return nums;
+
+	}
+
+	public static void main(String[] args) {
+		int arr[] = { 2, 7, 11, 15 };
+		int target = 9;
+		TwoSum sum = new TwoSum();
+		sum.twoSum(arr, target);
 	}
 }
