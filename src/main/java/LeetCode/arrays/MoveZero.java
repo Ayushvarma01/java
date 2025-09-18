@@ -4,20 +4,25 @@ import java.util.Arrays;
 
 public class MoveZero {
 	public void moveZeroes(int[] nums) {
-		int first = 0;
-		int second = 0;
-		for (int i = 0; i < nums.length; i++) {
-			first = nums[i];
-			if (first > 0) {
-				if (i != nums.length - 1) {
-					second = nums[i + 1];
-					int temp = first;
-					nums[i] = second;
-					nums[i + 1] = temp;
-				}
+		int firstIndexVal = 0;
+		int secondIndexVal = 0;
 
+		for (int index = 0; index < nums.length; index++) {
+			firstIndexVal = nums[index];
+
+			if (firstIndexVal != 0) {
+				if (index != nums.length - 1) {
+
+					secondIndexVal = nums[index + 1];
+					int tempIndexVal = firstIndexVal;
+					nums[index] = secondIndexVal;
+					nums[index + 1] = tempIndexVal;
+
+				}
 			}
+
 		}
+
 		Arrays.stream(nums).forEach(num -> System.out.print(num + " "));
 	}
 
