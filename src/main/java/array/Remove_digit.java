@@ -1,7 +1,6 @@
 package array;
 
-import java.util.*;
-import java.text.*;
+import java.util.Scanner;
 
 public class Remove_digit {
 	public static void main(String[] args) {
