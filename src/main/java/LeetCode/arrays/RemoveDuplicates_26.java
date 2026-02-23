@@ -1,6 +1,6 @@
 package LeetCode.arrays;
 
-public class RemoveDuplicates {
+public class RemoveDuplicates_26 {
 
 	public int removeDuplicates(int[] arr) {
 		int index = 0;
@@ -41,7 +41,7 @@ public class RemoveDuplicates {
 //		int arr[] = { -3, -1, 0, 0 };
 //		int arr[] = { 0, 0, 0, 0, 3 };
 //		int arr[] = { -3, -1, -1, 0, 0, 0, 0, 0 };
-		int k = new RemoveDuplicates().removeDuplicates(arr);
+		int k = new RemoveDuplicates_26().removeDuplicates(arr);
 		for (int i = 0; i < k; i++) {
 			System.out.println(arr[i]);
 		}

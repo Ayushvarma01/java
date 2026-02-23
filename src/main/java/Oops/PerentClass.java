@@ -1,7 +1,8 @@
 package Oops;
 
-public abstract class PerentClass {
-	public static void main(String[] args) {
+public class PerentClass {
+
+	public void get() {
 		System.out.println("This is perent class.");
 	}
 }

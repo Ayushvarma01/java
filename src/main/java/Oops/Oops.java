@@ -1,7 +1,7 @@
 package Oops;
 
 public class Oops {
-	String name;
+	protected String name;
 
 //	Oops() {
 //		this.name = "Ayush";
